@@ -1,0 +1,61 @@
+pipeline 
+{
+	agent none
+	stages 
+	{
+		stage('Build Java') 
+		{
+			agent 
+			{
+				docker 
+				{ 
+					image 'androidsdk/android-31:latest'
+					reuseNode true
+				}
+			}
+			steps 
+			{
+				sh 'java -version'
+				sh 'git --version'
+                sh 'chmod +x gradlew && ./gradlew --no-daemon --stacktrace clean'				
+			}
+		}
+		
+		stage('Java Test')
+		{
+			agent 
+			{
+				docker 
+				{ 
+					image 'androidsdk/android-31:latest'
+					reuseNode true  
+				}
+			}
+			steps 
+			{
+                sh './gradlew test'
+				junit '**/build/test-results/**/TEST-*.xml'
+			}			
+		}
+		
+		stage('Build Python') 
+		{
+			agent 
+			{
+				docker 
+				{ 
+					image 'python:3.8' 
+				}
+			}
+			steps 
+			{
+				withEnv(["HOME=${env.WORKSPACE}"])
+				{
+					sh 'python3 -m pip install --upgrade pip setuptools wheel'
+					sh 'pip3 install -r requirements.txt'
+					sh 'python main.py'
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/drawable/ic_email.xml" value="0.188" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/account_dialog.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_accounts_over_view.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_add_clerk.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_change_clerk.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_chat.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_clerk_overview.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_clerks_overview.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_customers_overview.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_dashbord.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_forgot_pass.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_payment.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_pending_loans.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_set_new_password.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_show_messages.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_show_users.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_transaction.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_transfer.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/add_clerk_to_user_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/add_payee_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/assign_customer_dialog.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/change_clerk_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/conent_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/customer_dialog.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/deposit_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/help_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/loan_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_accounts.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_customer_row.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_message_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_profile_row.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_transactions.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/menu_header.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/pending_cash_deposit_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/pending_loan_dialog.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/show_message_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/transfer_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/view_user_dialog.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/menu/main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1325" />
+        <entry key="..\:/Users/danie/Desktop/PM2022_TEAM_26_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1325" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/drawable/ic_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/drawable/ic_security.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/account_dialog.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_accounts_over_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_add_clerk.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_dashbord.xml" value="0.12" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_forget_password_success_message.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_forgot_pass.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_make_selection.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_set_new_password.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_signup.xml" value="0.103125" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/activity_user_profile.xml" value="0.14447463768115942" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/conent_home.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/deposit_dialog.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/main_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/layout/menu_header.xml" value="0.12" />
+        <entry key="..\:/Users/vimik/AndroidStudioProjects/YMDBanking/app/src/main/res/menu/main_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/drawable/ic_cancel.xml" value="0.1145" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/account_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_accounts_over_view.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_add_clerk.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_show_users.xml" value="0.1796875" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_transfer.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/activity_user_profile.xml" value="0.103125" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/add_clerk_to_user__dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/lst_accounts.xml" value="0.12" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/menu_header.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/layout/transfer_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/mipmap-anydpi-v26/ic_cancel.xml" value="0.1105" />
+        <entry key="..\:/Users/vimik/Desktop/PM2022_TEAM_26_2/app/src/main/res/mipmap-anydpi-v26/ic_cancel_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

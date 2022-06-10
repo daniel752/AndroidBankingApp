@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_bg"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="537dp"
+        android:background="#1b6200"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/select_send_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/select_sending_account"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spn_select_customer_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_send_txt"
+
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="28dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transfer_amount_style"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spn_select_customer_acc"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_transfer_amount"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_deposit"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/transfer_amount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aldrich"
+                android:inputType="phone"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/txt_select_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transfer_amount_style"
+            android:layout_marginTop="37dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/select_receiving_profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spn_receiving_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_select_customer"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:id="@+id/txt_select_receiving_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/select_send_txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="294dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/select_an_account"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spn_receiving_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_select_receiving_account"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/transfer_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spn_receiving_acc"
+            android:layout_alignStart="@+id/spn_receiving_acc"
+            android:layout_alignEnd="@+id/spn_receiving_acc"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/black"
+            android:text="@string/transfer"
+            android:textColor="#1b6200" />
+
+        <Button
+            android:id="@+id/btn_cancel_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transfer_btn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:text="@string/cancel"
+            android:textColor="#1b6200" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/receiving_account_txt"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/transfer_amount"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginTop="-163dp"-->
+        <!--            android:layout_marginEnd="7dp"-->
+        <!--            android:fontFamily="@font/aldrich"-->
+        <!--            android:text="@string/select_sending_account"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="16sp" />-->
+
+        <!--        <Spinner-->
+        <!--            android:id="@+id/spn_receiving_account"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/receiving_account_txt"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_marginBottom="28dp" />-->
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

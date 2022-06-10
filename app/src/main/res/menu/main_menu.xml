@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/mail"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/nav_clerks"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/show_clerks" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_show_users"
+            android:title="@string/show_users" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_show_users"
+            android:title="@string/show_customers" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_accounts"
+            android:title="@string/accounts" />
+        <item
+            android:id="@+id/nav_change_clerk"
+            android:icon="@drawable/switch_clerk_icon"
+            android:title="@string/change_clerk" />
+
+        <item android:title="@string/transaction"
+            android:id="@+id/nav_transaction">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_payment"
+                        android:icon="@drawable/ic_payments"
+                        android:title="@string/make_a_payment" />
+                    <item
+                        android:id="@+id/nav_deposit"
+                        android:icon="@drawable/ic_deposit"
+                        android:title="@string/make_a_deposit" />
+                    <item
+                        android:id="@+id/nav_transfer"
+                        android:icon="@drawable/icon_transfer_24"
+                        android:title="@string/make_a_transfer" />
+                    <item
+                        android:id="@+id/nav_pending_transactions"
+                        android:icon="@drawable/ic_loan_req"
+                        android:title="@string/approve_transactions" />
+                    <item
+                        android:id="@+id/nav_loan"
+                        android:icon="@drawable/ic_loan_req"
+                        android:title="@string/apply_for_loan" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_profile"
+                        android:title="@string/profile" />
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/icon_logout_24"
+                        android:title="@string/logout" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help"
+            android:icon="@drawable/help_icon" />
+    </group>
+</menu>
